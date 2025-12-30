@@ -5,7 +5,21 @@
 body{
     font-family: vazirmatn;
 }
+body svg{
+    fill: currentColor;
+}
+.lh-1{
+    line-height: 30px;
+}
+.lh-2{
+    line-height: 35px;
+}
 
+.underline{
+    width: 150px;
+    border: 3px solid #eee;
+    margin: auto;
+}
 /* ...............header..........  */
 /* ..............navbar............  */
 .myNav{
@@ -79,7 +93,39 @@ header{
         opacity: 1;
     }
 }
-
 /* ...............end of header..........  */
+/* ...........awards............... */
+.awards{
+    background-color: #151f20;
+}
+.right-anim{
+    animation-name: right;
+    animation-duration: 2s;
+}
+.left-anim{
+    animation-name: left;
+    animation-duration: 2s;
+}
+@keyframes right {
+    0%{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes left {
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+/* ...........end of awards............... */
 
 
