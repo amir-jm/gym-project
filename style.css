@@ -127,5 +127,24 @@ header{
     }
 }
 /* ...........end of awards............... */
+/* ...............services..................  */
+.type-service{
+    box-shadow: 5px 7px 20px rgba(0,0,0,0.7);
+}
+.img-lable{
+    position: absolute;
+    left: 0;
+    top: 60%;
+    width: 50%;
+    height: 15%;
+    background-color: rgb(37, 148, 223);
+    opacity: 0.8;
+    transition: opacity 0.7s;
+    cursor: pointer;
+}
+.img-lable:hover{
+    opacity: 1;
+}
+/* ...............end of services..................  */
 
 
