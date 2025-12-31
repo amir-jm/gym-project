@@ -20,6 +20,11 @@ body svg{
     border: 3px solid #eee;
     margin: auto;
 }
+.underline2{
+    width: 150px;
+    border: 3px solid #aaa;
+    margin: auto;
+}
 /* ...............header..........  */
 /* ..............navbar............  */
 .myNav{
@@ -146,5 +151,14 @@ header{
     opacity: 1;
 }
 /* ...............end of services..................  */
+/* ................gallery....................... */
+.category-link{
+    color: #666;
+    cursor: pointer;
+}
+.active-item{
+    color: #199ce7;
+}
+/* ................end of gallery....................... */
 
 
