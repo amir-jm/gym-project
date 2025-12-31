@@ -160,5 +160,16 @@ header{
     color: #199ce7;
 }
 /* ................end of gallery....................... */
+/* ..............trainers.....................  */
+.trainers{
+    background-color: #151f20;
+}
+.trainers .img-trainer{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+/* ..............end of trainers.....................  */
+
 
 
