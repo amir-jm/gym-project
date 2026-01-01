@@ -170,6 +170,73 @@ header{
     border-radius: 50%;
 }
 /* ..............end of trainers.....................  */
+/* ..................membership...................  */
+.membership .card-list-item{
+    border-bottom: 1px solid #eee;
+    width: 50%;
+    margin: auto;
+}
+.membership .card{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(./images/membership.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 7px 20px rgba(0, 0, 0, 0.5);
+}
+.membership .submit-btn{
+    background-color: #199ce7;
+    border-radius: 20px;
+    padding: 5px 40px;
+    opacity: 0.8;
+    transition: transform 0.5s ,opacity 0.5s;
+}
+.membership .submit-btn:hover{
+    transform: translateY(-2px);
+    opacity: 1;
+}
+.move-right{
+    animation-name: move-right;
+    animation-duration: 2s;
+}
+.move-left{
+    animation-name: move-left;
+    animation-duration: 2s;
+}
+.move-bottom{
+    animation-name: move-bottom;
+    animation-duration: 2s;
+}
 
+@keyframes move-right {
+    0%{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes move-left {
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes move-bottom {
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* ..................end of membership...................  */
 
 

@@ -2,6 +2,9 @@ let navButton = document.querySelector('.nav-button');
 let navbar = document.querySelector('.myNav')
 const rightAnim = document.querySelector('#right-anim')
 const leftAnim = document.querySelector('#left-anim')
+const card1 = document.querySelector('.card1')
+const card2 = document.querySelector('.card2')
+const card3 = document.querySelector('.card3')
 
 navButton.addEventListener('click',function(){
     navButton.classList.toggle('change')
@@ -51,3 +54,16 @@ document.querySelectorAll('.category-link').forEach(item =>{
     },false)
 })
 /////////////end of gallery///////////////////
+///////////////membership////////////////
+window.addEventListener('scroll',()=>{
+    let position = this.scrollY
+    if(position >= 4800){
+        card1.classList.add('move-right')
+        card2.classList.add('move-bottom')
+        card3.classList.add('move-left')
+    }else{
+        card1.classList.remove('move-right')
+        card2.classList.remove('move-bottom')
+        card3.classList.remove('move-left')
+    }
+},false)
