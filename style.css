@@ -238,5 +238,49 @@ header{
     }
 }
 /* ..................end of membership...................  */
+/* ..............contact............................  */
+.contact{
+    background: linear-gradient(105deg ,rgba(21,31,32,0.8)0%, rgba(21,31,32,0.9)50% , transparent 50%),url(./images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact .submit-button{
+    background-color: #199ce7;
+    opacity: 0.8;
+    transition: transform 0.3s , opacity 0.3s;
+}
+.contact .submit-button:hover{
+    transform: translateY(-2px);
+    opacity: 1;
+}
+.contact .form-input{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+    transition: all 0.5s;
+    color: #ccc;
+}
+.contact .form-input:focus{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid orange;
+    color: #ccc;    
+}
+.contact .form-input::placeholder{
+    color: #666;
+    font-size: 0.8rem;
+}
+@media (max-width:992px) {
+    .contact{
+        background: none;
+        background-color: rgba(21, 31, 32, 0.9);
+    }
+
+}
+/* ..............end of contact............................  */
 
 
