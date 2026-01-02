@@ -282,5 +282,20 @@ header{
 
 }
 /* ..............end of contact............................  */
-
+/* ....................footer.....................  */
+footer p{
+    font-size: 12px;
+}
+footer ul li a svg{
+    width: 30px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #eee;
+    font-size: 12px;
+    transition: color 0.3s;
+}
+footer ul li a:hover{
+    color: #199ce7;
+}
 
